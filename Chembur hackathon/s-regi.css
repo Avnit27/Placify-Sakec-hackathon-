@@ -1,0 +1,75 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.user-actions a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
